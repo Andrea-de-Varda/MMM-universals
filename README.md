@@ -12,6 +12,7 @@ The ITCT consists in an adaptation of mBERT's native functionality, i.e. **maske
 
 The file `ITCT.py` receives as input a text file where each sentence is separated by a new line. It returns the overall probability assigned to each sentence by BERT, mBERT, and BERT initialized with random weights in different output text files (mono_mean_p.txt, multi_mean_p.txt, random_mean_p.txt) located in a folder named as the txt file in input. 
 
+#### Usage:
 `python3 ITCT.py -c input_file.txt`
 
 ### Corpora generated through PCFG - Section 4.1
