@@ -15,7 +15,7 @@ The file `ITCT.py` receives as input a text file where each sentence is separate
 `python3 ITCT.py -c input_file.txt`
 
 ### Corpora generated through PCFG - Section 4.1
-The file `PCFG_corpora.py` contains the code to build the four artificial corpora employed in our first experiment (nested brackets, flat brackets, zipf corpus, random corpus).
+The file `PCFG_corpora.py` contains the code to build the four artificial corpora employed in our first experiment (nested brackets, flat brackets, zipf corpus, random corpus). The 1,000 sentences datasets are available in the folder `artificial_corpora`.
 
 ### Adjacent tokens count - Section 4.4.1
 The file `adjacent_count.py` counts the amount of identical adjacent tokens in Wikipedia dumps in English, Chinese, and Finnish.
